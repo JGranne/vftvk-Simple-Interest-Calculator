@@ -2,15 +2,16 @@
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <title>Simple Interest Calculator</title>
     </head>
     <body onload="slide()">
         <fieldset>
             <h1>Simple Interest Calculator</h1>
             <form class="calculatorForm">
                 <label for="principal">Amount</label>
-                <input type="text" id="principal" name="principal"> <br/>
+                <input type="number" id="principal" name="principal"> <br/>
                 <label for="rate">Rate</label>
-                <input type="range" min="1" max="30" value="3" class="slider" id="rate">
+                <input type="range" min="1" max="20" value="3" class="slider" id="rate">
                 <span id="slidervalue"></span><br/>
                 <label for="years">No. of Years</label>
                 <select id="years" name="years">
