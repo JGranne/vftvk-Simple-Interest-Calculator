@@ -1,4 +1,71 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color: black;}
 
+h1{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
+label {
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    margin: 10 0 0 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input, select {
+  display: inline-block;
+  text-align: left;
+  margin: 10 0 0 -150;
+}
+
+button, #result {
+    margin: 10 0 0 50;
+}
+
+fieldset {
+    margin: 10 0 0 50;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    float: left;
+}
+
+#result, p {
+    margin: 10 0 0 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .slider {
+    -webkit-appearance: none;
+    width: 30%;
+    height: 5px;
+    background: lightgray;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: Blue;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: Blue;
+    cursor: pointer;
+  }
